@@ -1,0 +1,49 @@
+
+ARCHITECTURE:
+
+  ADOPT:
+  - Domain Driven Design
+  TRIAL:
+  - Data Context Interaction
+  ASSESS:
+  HOLD:
+
+TECHNIC:
+
+  ADOPT:
+  - Test Driven Development
+  - Continuous Integration
+
+
+TOOL_BACKEND:
+
+  ADOPT:
+  - docker
+  - elasticsearch
+  TRIAL:
+  - couchbase
+  ASSESS:
+  - loopback, deployd
+  HOLD:
+
+TOOL_FRONTEND:
+
+  ADOPT:
+  - jquery
+  - bootstrap
+  - grunt
+  - browserify
+  TRIAL:
+  - RxJS
+  - gobble, broccoli, gulp
+  - karma, testem
+  - jshint, jscs
+  - nightwatch, casperjs
+  - jsduck, dox, yuidoc
+  ASSESS:
+  - polymer
+  HOLD:
+  DONT:
+  - angularjs
+  - backbonejs
+  - altJS
